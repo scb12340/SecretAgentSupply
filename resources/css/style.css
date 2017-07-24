@@ -102,6 +102,7 @@ nav#two {
 #products {
   display: flex;
   justify-content: space-between;
+
 }
 #details h4 {
   padding-top: 1rem;
@@ -114,6 +115,7 @@ nav#two {
 #details div {
   width:35%;
   padding-bottom: 4rem;
+  justify-content: center;
 }
 #details {
   display: flex;
@@ -162,4 +164,45 @@ nav#two {
   nav#two {
     display: block;
   }
+}
+@media only screen and (max-width:470px) {
+  #products div#three {
+    display: none
+  }
+  #products div#two {
+    display: none;
+  }
+  #products div {
+    width: 90%;
+    justify-content: center;
+  }
+  #details div {
+    width: 90%;
+  }
+  #details {
+    display: block;
+    align-content: center;
+  }
+  #details div#two {
+    margin-top: 0.5rem
+  }
+#new {
+  margin-top: 10rem;
+  width: 100%;
+}
+#new h1 {
+  font-size: 18px;
+  padding-left: 2rem;
+}
+#new h2 {
+  font-size: 13.86px;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+.main {
+  height: 15rem;
+}
+.footer h3 {
+  text-align: center;
+}
 }
